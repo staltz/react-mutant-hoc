@@ -1,0 +1,25 @@
+{
+  "name": "react-mutant-hoc",
+  "version": "1.0.0",
+  "description": "A utility to make React components easily consume Mutant observables",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "scripts": {
+    "compile": "tsc",
+    "test": "tape test.js",
+    "prepublishOnly": "npm run compile"
+  },
+  "author": "staltz.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^8.0.30",
+    "tape": "^4.8.0",
+    "typescript": "2.6.x",
+    "react-test-renderer": "^16.2.0"
+  },
+  "dependencies": {
+    "@types/react": "16.x",
+    "mutant": "3.x",
+    "react": "16.x"
+  }
+}
